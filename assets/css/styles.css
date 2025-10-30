@@ -27,6 +27,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -46,6 +49,7 @@ main {
     background-color: lightblue;
     /* Make main take all available space between header and footer */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 #menu {
@@ -70,6 +74,16 @@ nav {
     left: 0;
     padding: 0 1 rem;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%
+}
+
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
     display: none;
 }
 
