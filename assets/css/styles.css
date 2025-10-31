@@ -19,6 +19,13 @@ body {
     font-family: 'lato', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /*header*/
 header {
     background-color: #ffffff;
@@ -37,11 +44,6 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif; 
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 }
 
 /*main*/
