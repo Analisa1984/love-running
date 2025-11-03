@@ -25,6 +25,10 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525;
 }
+/* hide h2 heading to look nicer but remain to help in search engine*/
+.hidden-heading {
+    display: none;
+}
 
 /*header*/
 header {
