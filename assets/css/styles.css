@@ -193,10 +193,35 @@ text-align: center;
 }   
 
 }
+ 
+/* Style the times Section */
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+/* this will not wrap on screen less than 400px wide.
+Each div will expand to fill the available space on its row*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* adds a border around each div*/
+    border: 2px solid white;
+}
+
+/* overide color in general styles for h3 times div */
+#times h3 {
+    color: #fafafa;
+}
 
 /* Media Query: desktops and larger (992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and
+ (min-width: 992px) {
     #menu  a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
