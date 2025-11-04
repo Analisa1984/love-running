@@ -257,3 +257,9 @@ Each div will expand to fill the available space on its row*/
     #photos {
         column-count: 4;
 }
+
+/* Sign Up Page Styles*/
+#signup > h2 {
+line-height: 20px;
+padding- top: 300px;
+ }
